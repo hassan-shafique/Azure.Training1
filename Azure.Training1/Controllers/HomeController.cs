@@ -20,7 +20,7 @@ namespace Azure.Training1.Controllers
 
         public IActionResult Privacy()
         {
-            throw new NotImplementedException();
+            return NotFound();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
